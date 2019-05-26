@@ -1,0 +1,88 @@
+body{
+    background: #575757;
+    margin:0;
+    min-width: 400px;
+    color: #ffffff;
+    font-family:Courier New;
+
+}
+
+#submitButton {
+    padding:0.35em 1.2em;
+    border:1px solid #747474;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight:300;
+    color:#FFFFFF;
+    text-align:center;
+    background: #ff069699;
+}
+
+#submitButton:hover {
+    color:#000000;
+    background-color:#FFFFFF;
+}
+
+
+#submitButton:active {
+    position:relative;
+    top:1px;
+}
+
+
+
+#submitButton:disabled{
+    background-color: #9c9c9c;
+    cursor: not-allowed;
+}
+
+#submitButton:disabled:hover{
+    background-color: #9c9c9c;
+    cursor: not-allowed;
+}
+
+
+
+form {
+    background: #494949;
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 15px 35px 45px;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+div{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+input[type="text"] {
+    margin-bottom: -1px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+input[type="text"]:focus {
+    z-index: 2;
+}
+
+input[type="radio"]
+{
+    margin-bottom: 30px;
+
+}
+
+label{
+    font-size: 40px;
+}

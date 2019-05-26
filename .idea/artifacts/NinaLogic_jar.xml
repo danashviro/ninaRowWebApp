@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="NinaLogic:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/NinaLogic_jar</output-path>
+    <root id="archive" name="NinaLogic.jar">
+      <element id="module-output" name="NinaLogic" />
+    </root>
+  </artifact>
+</component>

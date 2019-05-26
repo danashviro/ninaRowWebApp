@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="lobby.css">
+    <title>lobby</title>
+</head>
+<body>
+    <div class="topToolbar">
+        <button class="logoutButton" type="button" onclick="logout()" >logout</button>
+        <span class="userNameSpan"></span>
+    </div>
+    <div class="mainDiv">
+        <div class="gamesDiv">
+        <div class="fileChooserDiv">
+            <form id="uploadForm" action="gameUpload" enctype="multipart/form-data" method="POST">
+                Upload game: <input type="file" name="file1" onchange="submitFile()">
+                <input id="uploadFormSubmit" type="Submit" value="Upload game" hidden="hidden">
+            </form>
+        </div>
+        <table class="gamesTable">
+            <thead>
+            <th>Game name</th>
+            <th>Game owner</th>
+            <th>Board size</th>
+            <th>Target</th>
+            <th>Variant</th>
+            <th>Status</th>
+            <th>Number of players</th>
+            <th></th>
+            </thead>
+            <tbody class="gamesList">
+            </tbody>
+        </table>
+    </div>
+    <div class="playersDiv">
+        <table class="usersTable">
+            <thead>
+                <th>Online users:</th>
+            </thead>
+            <tbody class="usersList">
+            </tbody>
+        </table>
+    </div>
+    </div>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="lobby.js"></script>
+</body>
+</html>

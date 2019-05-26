@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>game</title>
+    <link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body>
+<div class="mainDiv">
+    <div class="topDiv">
+        <button id="retireButton" onclick="retire()">Retire</button>
+        <h3 class="gameStatusLabel"></h3>
+    </div>
+    <div class="bodyDiv">
+        <div class="gameTableDiv">
+            <table class="gameTable">
+                <thead class="gameTableHead"></thead>
+                <tbody class="gameTableBody"></tbody>
+                <tfoot class="gameTableFoot"></tfoot>
+            </table>
+        </div>
+        <div class="userListTableDiv">
+            <table class="userListTable">
+                <thead>Users:</thead>
+                <tbody class="userListBody"></tbody>
+            </table>
+        </div>
+    </div>
+</div>
+</body>
+<script type="text/javascript" src="jquery-2.0.3.min.js"></script>
+<script type="text/javascript" src="game.js"></script>
+</html>

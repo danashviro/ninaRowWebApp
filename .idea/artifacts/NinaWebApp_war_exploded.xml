@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" build-on-make="true" name="NinaWebApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/NinaWebApp_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="NinaWebApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="artifact" artifact-name="NinaLogic:jar" />
+          <element id="library" level="project" name="gson-2.7" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="NinaWebApp/web/Web" />
+    </root>
+  </artifact>
+</component>
